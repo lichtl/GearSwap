@@ -142,17 +142,14 @@ function init_include()
 	state.DisplayMode  	  	  = M(true, 'Display Mode')
 	state.UseCustomTimers 	  = M(true, 'Use Custom Timers')
 	state.CancelStoneskin	  = M(true, 'Auto Cancel Stoneskin')
-	state.BlockMidaction	  = M(true, 'Block Midaction')
 	state.MaintainAftermath	  = M(true, 'Maintain Aftermath')
 	state.RefineWaltz		  = M(true, 'RefineWaltz')
 	state.ElementalWheel 	  = M(false, 'Elemental Wheel')
-	state.MaintainDefense 	  = M(false, 'Maintain Defense')
 	state.SkipProcWeapons 	  = M(false, 'Skip Proc Weapons')
 	state.NotifyBuffs		  = M(false, 'Notify Buffs')
 	state.UnlockWeapons		  = M(false, 'Unlock Weapons')
 	state.SelfWarp2Block 	  = M(true, 'Block Warp2 on Self')
 	state.MiniQueue		 	  = M(true, 'MiniQueue')
-	state.WakeUpWeapons	 	  = M(false, 'Swap Weapons To Wake Up')
 	
 
 	state.AutoBuffMode 		  = M{['description'] = 'Auto Buff Mode','Off','Auto'}
