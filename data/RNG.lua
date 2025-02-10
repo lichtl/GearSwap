@@ -75,7 +75,6 @@ function job_setup()
                    ['Armageddon'] = "Gun",
                    ['Fomalhaut'] = "Gun",
 				   ['Ataktos'] = "Gun",
-				   ['Armageddon'] = "Gun",
                    ['Gastraphetes'] = "Crossbow",
                    }
 	
