@@ -146,6 +146,8 @@ function init_gear_sets()
 	sets.midcast.March = {hands="Fili Manchettes +1"}
 	sets.midcast['Honor March'] = set_combine(sets.midcast.March,{range="Marsyas"})
 	sets.midcast.Minuet = {body="Fili Hongreline +1"}
+	sets.midcast.Minuet.Pianissimo = {range="Miracle Cheer", body="Fili hongreline +1"}
+        sets.midcast.Minuet.Soulvoice = {range="Miracle Cheer", body="Fili hongreline +1"}
 	sets.midcast.Minne = {}
 	sets.midcast.Threnody = {neck="Elite Royal Collar"}
 	sets.midcast.Carol = {}
