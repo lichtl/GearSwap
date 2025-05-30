@@ -220,7 +220,7 @@ function update_job_states()
 	if state.CraftingMode.value ~= 'None' then
 		stateBox:append(string.format("%sCrafting Mode: "..state.CraftingMode.value.."%s", clr.h, clr.n))
 		stateBox:append(spc)
-		stateBox:append(string.format("%sCrafting Quality: "..state.CraftQuality.value.."%s", clr.h, clr.n))
+		stateBox:append(string.format("%sCraft Quality: "..state.CraftQuality.value.."%s", clr.h, clr.n))
 		return
 	end
 
