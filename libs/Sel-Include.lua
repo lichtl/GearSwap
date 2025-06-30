@@ -2443,6 +2443,7 @@ function buff_change(buff, gain)
 	elseif buff == 'sleep' or buff == 'Lullaby' then
 		if  state.CancelStoneskin.value then
 			send_command('cancel stoneskin')
+		end
 		if gain then
 			if item_equippable("Sacrifice Torque") and pet.isvalid then
 				internal_disable_set({neck="Sacrifice Torque"}, "Sleep")
